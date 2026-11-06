@@ -10,7 +10,7 @@ type BagItem = { productId: string; size: string };
 const sizes = ["XS", "S", "M", "L", "XL"];
 const otherWorlds = [
   { name: "Couture-Cola", note: "Painted streetwear", number: "02", href: "https://kout-couture-cola.netlify.app/" },
-  { name: "Rebelle", note: "Y2K racing", number: "03" },
+  { name: "Rebelle", note: "Cold technical streetwear", number: "03", href: "https://kout-rebelle.netlify.app/" },
   { name: "Jaguère", note: "Nocturnal tailoring", number: "04" },
   { name: "Jaoudé", note: "Contemporary resortwear", number: "05" },
 ];
@@ -169,7 +169,7 @@ export default function Storefront() {
           <div className="worlds-heading">
             <p className="section-index">Kout Project / The wider world</p>
             <h2 id="worlds-title">Five worlds.<br />One point of view.</h2>
-            <p>Mercereze opens the series. Couture-Cola is live; three more independent worlds are taking shape.</p>
+            <p>Mercereze opens the series. Couture-Cola and Rebelle are live; two more independent worlds are taking shape.</p>
           </div>
           <div className="world-list">
             {otherWorlds.map((world) => world.href ? (
